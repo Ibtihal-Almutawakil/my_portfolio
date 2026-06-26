@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محفظة البيانات | معرض أعمالي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="text-[#1e293b]">
+
+    <!-- الهيدر / شريط التنقل -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-[#0b0f44]">محفظة البيانات</div>
+            <nav id="navbar-links" class="hidden md:flex space-x-reverse space-x-8 text-sm font-medium">
+                <a href="#" class="nav-link text-[#0b0f44] border-b-2 border-[#0b0f44] pb-1 font-bold transition">الرئيسية</a>
+                <a href="#about" class="nav-link text-gray-500 hover:text-gray-900 transition pb-1">من أنا</a>
+                <a href="#projects" class="nav-link text-gray-500 hover:text-gray-900 transition pb-1">مشاريعي</a>
+                <a href="#contact" class="nav-link text-gray-500 hover:text-gray-900 transition pb-1">تواصل معي</a>
+            </nav>
+            <button class="bg-[#0b0f44] text-white text-xs px-4 py-2 rounded-lg hover:bg-[#0d125a] transition">السيرة الذاتية</button>
+        </div>
+    </header>
+
+    <!-- البانر الرئيسي / قسم الترحيب -->
+    <section class="max-w-6xl mx-auto px-6 py-12 md:py-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-7 order-2 md:order-1">
+            <span class="bg-sky-100 text-sky-700 text-xs font-bold px-3 py-1 rounded-full"> حيث تلتقي الأرقام بالرؤية والاستراتيجية</span>
+            <h1 class="text-3xl md:text-5xl font-bold text-[#0b0f44] mt-4 leading-tight">
+                أهلاً، أنا <span class="text-[#0b0f44]">ابتهال المتوكل</span> محللة بيانات
+            </h1>
+            <p class="text-gray-500 mt-6 leading-relaxed text-sm md:text-base">
+                أقوم بتحويل مجموعات البيانات المعقدة إلى قصص بصرية قابلة للتنفيذ. متخصصة في أنظمة البيانات عالية الأداء وهياكل لوحات المعلومات البديهية لدفع اتخاذ قرارات أفضل.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+                <a href="#projects" class="bg-[#0b0f44] text-white text-sm px-6 py-3 rounded-lg hover:bg-[#0d125a] transition flex items-center gap-2">
+                    عرض أعمالي <span>←</span>
+                </a>
+                <a href="#" class="border border-gray-300 text-gray-700 text-sm px-6 py-3 rounded-lg hover:bg-gray-50 transition flex items-center gap-2">
+                    تحميل السيرة الذاتية 
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                </a>
+            </div>
+        </div>
+        
+        <!-- الصورة الواجهة مستقرة بأبعاد 4:3 -->
+        <div class="md:col-span-5 order-1 md:order-2">
+            <div class="w-full rounded-2xl shadow-xl relative overflow-hidden aspect-[4/3] flex items-center justify-center transition-all duration-300 bg-slate-100 border border-gray-200">
+                <img src="main.png" alt="تحليل البيانات والشبكات الإحصائية" class="absolute inset-0 w-full h-full object-cover z-0">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم من أنا والمهارات -->
+    <section id="about" class="bg-white border-y border-gray-50 py-16">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-6">
+                <h2 class="text-2xl font-bold text-[#0b0f44] mb-6">عن رحلتي</h2>
+                <div class="text-gray-600 space-y-4 text-sm leading-relaxed">
+                    <p>انطلاقاً من أسس علوم الحاسوب، أقوم بسد الفجوة بين البنية التحتية التقنية واستخراج البيانات الهادفة. تكمن شغفي في بناء أنظمة بيانات فعالة يمكنها التوسع مع الحفاظ على الوضوح.</p>
+                    <p>أؤمن بأن البيانات هي البوصلة الحديثة للتقدم، سواء كان ذلك تحسين استعلامات SQL للأداء أو صياغة لوحات معلومات ذكية للوضوح التنفيذي.</p>
+                </div>
+            </div>
+            <div class="md:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="border border-sky-100 rounded-xl p-5 bg-sky-50/30">
+                    <div class="flex items-center gap-2 text-sm font-bold text-[#0b0f44] mb-3">
+                        <svg class="w-4 h-4 text-[#0369a1]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.003 9.003 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+                        تحليل البيانات وذكاء الأعمال 
+                    </div>
+                    <ul class="text-xs text-gray-600 space-y-2 list-disc list-inside">
+                        <li>Looker Studio</li>
+                        <li>Power BI</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+                <div class="border border-sky-100 rounded-xl p-5 bg-sky-50/30">
+                    <div class="flex items-center gap-2 text-sm font-bold text-[#0b0f44] mb-3">
+                        <svg class="w-4 h-4 text-[#0369a1]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        البرمجة وقواعد البيانات 
+                    </div>
+                    <ul class="text-xs text-gray-600 space-y-2 list-disc list-inside">
+                        <li>Python (Pandas, Plotly, Streamlit)</li>
+                        <li>SQL (PostgreSQL, MySQL)</li>
+                        <li>Java, PHP</li>
+                    </ul>
+                </div>
+                <div class="sm:col-span-2 border border-gray-100 rounded-xl p-5 bg-slate-50">
+                    <div class="flex items-center gap-2 text-sm font-bold text-[#0b0f44] mb-3">
+                        <svg class="w-4 h-4 text-[#0369a1]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.756.426-2.924 0-3.35a1.724 1.724 0 00-1.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        أدوات المطور بيئة العمل
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-white border border-gray-200 text-gray-600 text-xs px-3 py-1.5 rounded-lg shadow-sm">GitHub</span>
+                        <span class="bg-white border border-gray-200 text-gray-600 text-xs px-3 py-1.5 rounded-lg shadow-sm">VS Code</span>
+                        <span class="bg-white border border-gray-200 text-gray-600 text-xs px-3 py-1.5 rounded-lg shadow-sm">Jupyter Notebooks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع المختارة -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="flex justify-between items-end mb-10">
+            <div>
+                <h2 class="text-2xl font-bold text-[#0b0f44]">المشاريع المختارة</h2>
+                <p class="text-gray-400 text-xs mt-1">دراسات حالة في هندسة البيانات والتحليل البصري</p>
+            </div>
+            <button id="archive-btn" onclick="toggleArchive()" class="text-xs text-[#0b0f44] hover:text-[#0d125a] font-medium transition-all duration-200 flex items-center gap-1 focus:outline-none select-none">
+                <span id="archive-text">عرض الأرشيف الكامل</span> 
+                <span id="archive-icon" class="inline-block">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </span>
+            </button>
+        </div>
+
+        <!-- شبكة عرض المشاريع الثلاثة الأولى الديناميكية -->
+        <div id="main-projects-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch"></div>
+
+        <!-- الأرشيف المخفي الديناميكي للمشاريع الإضافية -->
+        <div id="hidden-archive" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out mt-0">
+            <div id="archive-projects-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch pt-6 border-t border-dashed border-gray-200 mt-6"></div>
+        </div>
+    </section>
+
+    <!-- قسم تواصل معي -->
+    <section id="contact" class="max-w-6xl mx-auto px-6 mb-16">
+        <div class="bg-gradient-to-r from-[#0b0f44] via-[#0d125a] to-[#0284c7] rounded-3xl p-8 md:p-12 text-center text-white shadow-xl relative overflow-hidden">
+            <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">دعنا نبني شيئاً يعتمد على البيانات.</h2>
+            <p class="text-white/70 text-xs md:text-sm max-w-xl mx-auto mb-8 relative z-10 leading-relaxed">
+                متاحة للاستشارات في مجال تحليل البيانات، أو بناء لوحات المعلومات التفاعلية.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 relative z-10">
+                <a href="mailto:your-email@example.com" class="bg-white text-[#0b0f44] font-medium text-xs px-6 py-3 rounded-xl hover:bg-gray-100 transition flex items-center gap-2 shadow-md">
+                    <svg class="w-4 h-4 text-[#0b0f44]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    إرسال بريد إلكتروني
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="bg-white/10 backdrop-blur-md text-white font-medium text-xs px-6 py-3 rounded-xl hover:bg-white/20 border border-white/10 transition flex items-center gap-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    رسالة لينكد إن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="border-t border-gray-100 bg-white py-8 text-xs text-gray-400">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <span class="font-bold text-gray-700">محفظة البيانات</span>
+                <p class="mt-1">© 2026 محفظة علوم الحاسوب ونظم البيانات. جميع الحقوق محفوظة.</p>
+            </div>
+            <div class="flex space-x-reverse space-x-6">
+                <a href="https://linkedin.com" class="hover:text-gray-600 transition">LinkedIn</a>
+                <a href="https://github.com" class="hover:text-gray-600 transition">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- سكربت جلب ومعالجة المشاريع تلقائياً -->
+    <script>
+        async function loadProjects() {
+            try {
+                const response = await fetch('projects.json');
+                const projects = await response.json();
+                
+                const mainGrid = document.getElementById('main-projects-grid');
+                const archiveGrid = document.getElementById('archive-projects-grid');
+                
+                mainGrid.innerHTML = '';
+                archiveGrid.innerHTML = '';
+
+                projects.forEach((project, index) => {
+                    const container = index < 3 ? mainGrid : archiveGrid;
+                    
+                    const tagsHTML = project.tags.map(tag => {
+                        const isMockData = tag.toLowerCase().includes('data') || tag.includes('بيانات');
+                        const baseClass = isMockData 
+                            ? "bg-red-50 text-red-700 text-[10px] px-2 py-0.5 rounded font-medium border border-red-100" 
+                            : "bg-sky-50 text-sky-700 text-[10px] px-2 py-0.5 rounded font-medium border border-sky-100";
+                        return `<span class="${baseClass}">${tag}</span>`;
+                    }).join('');
+                    
+                    const dynamicDetailsId = `dynamic-details-${index}`;
+                    const isLastProject = index === projects.length - 1;
+                    const cardIdAttr = isLastProject ? 'id="last-archive-project"' : `id="project-card-${index}"`;
+
+                    const cardHTML = `
+                        <div ${cardIdAttr} class="project-card bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between transition-all duration-300 hover:shadow-md">
+                            <div>
+                                <!-- تعديل أبعاد صور المشاريع هنا لتصبح 16:9 عريضة ومثالية للوحات البيانات -->
+                                <div class="w-full aspect-[16/9] overflow-hidden relative bg-slate-100 border-b border-gray-100">
+                                    <img src="${project.image}" alt="${project.title}" class="w-full h-full object-cover">
+                                </div>
+                                <div class="p-5">
+                                    <div class="flex flex-wrap gap-1.5 mb-3">${tagsHTML}</div>
+                                    <h3 class="font-bold text-base text-[#0b0f44] mb-2">${project.title}</h3>
+                                    <p class="text-gray-500 text-xs leading-relaxed">${project.summary}</p>
+                                    
+                                    <div id="${dynamicDetailsId}" class="project-details max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                                        <p class="text-gray-500 text-xs leading-relaxed pt-2 border-t border-gray-100 mt-2">${project.details}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-5 pt-0 space-y-2">
+                                <a href="${project.link}" target="_blank" class="block text-center bg-[#0b0f44] text-white text-xs py-2.5 rounded-lg hover:bg-[#0d125a] transition">استكشف لوحة البيانات المباشرة ↗</a>
+                                <button onclick="toggleProjectDetails(this, '${dynamicDetailsId}')" class="details-toggle-btn w-full text-center text-gray-400 text-[11px] hover:text-gray-600 transition focus:outline-none select-none">المزيد من التفاصيل</button>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += cardHTML;
+                });
+            } catch (error) {
+                console.error("حدث خطأ أثناء تحميل المشاريع الديناميكية:", error);
+            }
+        }
+
+        // تفعيل تلوين روابط التنقل (Navbar) عند الضغط عليها
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                links.forEach(l => {
+                    l.classList.remove('text-[#0b0f44]', 'border-b-2', 'border-[#0b0f44]', 'font-bold');
+                    l.classList.add('text-gray-500');
+                });
+                this.classList.remove('text-gray-500');
+                this.classList.add('text-[#0b0f44]', 'border-b-2', 'border-[#0b0f44]', 'font-bold');
+            });
+        });
+
+        // تفاعلية فتح وإغلاق الأرشيف الكامل
+        function toggleArchive() {
+            const archiveDiv = document.getElementById('hidden-archive');
+            const btnText = document.getElementById('archive-text');
+            const btnIcon = document.getElementById('archive-icon');
+
+            if (archiveDiv.style.maxHeight === '0px' || !archiveDiv.style.maxHeight) {
+                archiveDiv.style.maxHeight = archiveDiv.scrollHeight + 'px';
+                btnText.innerText = 'إغلاق الأرشيف الإضافي';
+                btnIcon.innerHTML = `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>`;
+                
+                setTimeout(() => {
+                    const lastProject = document.getElementById('last-archive-project');
+                    if (lastProject) {
+                        lastProject.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }, 150);
+                
+            } else {
+                archiveDiv.style.maxHeight = '0px';
+                btnText.innerText = 'عرض الأرشيف الكامل';
+                btnIcon.innerHTML = `<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>`;
+            }
+        }
+
+        // إظهار تفاصيل المشروع وتحديث ارتفاع الأرشيف
+        function toggleProjectDetails(button, targetId) {
+            const detailsDiv = document.getElementById(targetId);
+            if (!detailsDiv) return;
+            
+            const gridContainer = detailsDiv.closest('.grid');
+            const archiveDiv = document.getElementById('hidden-archive');
+            
+            gridContainer.classList.remove('items-stretch');
+            gridContainer.classList.add('items-start');
+
+            const initialDetailsHeight = detailsDiv.style.maxHeight === '0px' || !detailsDiv.style.maxHeight ? 0 : detailsDiv.scrollHeight;
+
+            if (detailsDiv.style.maxHeight === '0px' || !detailsDiv.style.maxHeight) {
+                detailsDiv.style.maxHeight = detailsDiv.scrollHeight + 'px';
+                button.innerText = 'إخفاء التفاصيل';
+                
+                if (archiveDiv && archiveDiv.contains(detailsDiv)) {
+                    archiveDiv.style.maxHeight = (archiveDiv.scrollHeight + detailsDiv.scrollHeight) + 'px';
+                }
+            } else {
+                detailsDiv.style.maxHeight = '0px';
+                button.innerText = 'المزيد من التفاصيل';
+                
+                if (archiveDiv && archiveDiv.contains(detailsDiv)) {
+                    archiveDiv.style.maxHeight = Math.max(0, (archiveDiv.scrollHeight - initialDetailsHeight)) + 'px';
+                }
+                
+                setTimeout(() => {
+                    const allDetailsInGrid = gridContainer.querySelectorAll('.project-details');
+                    let anyOpen = false;
+                    allDetailsInGrid.forEach(div => {
+                        if (div.style.maxHeight !== '0px' && div.style.maxHeight !== '') anyOpen = true;
+                    });
+                    if (!anyOpen) {
+                        gridContainer.classList.remove('items-start');
+                        gridContainer.classList.add('items-stretch');
+                    }
+                    if (archiveDiv && archiveDiv.contains(detailsDiv) && archiveDiv.style.maxHeight !== '0px') {
+                        archiveDiv.style.maxHeight = archiveDiv.scrollHeight + 'px';
+                    }
+                }, 300);
+            }
+        }
+
+        window.onload = loadProjects;
+    </script>
+</body>
+</html>
